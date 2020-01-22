@@ -5,6 +5,6 @@ def countdown
   loop do 
     puts "#{number} SECOND(S)!"
     number -= 1 
-    if number == 0 break
+    break if number == 0 
   end 
 end
